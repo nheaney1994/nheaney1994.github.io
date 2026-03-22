@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML: The Foundation of Web Pages</title>
+  <title>History of HTML</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Main site header and navigation -->
+
+  <!-- Header stays consistent -->
   <header>
     <div class="container">
-      <h1>HTML: The Foundation of Web Pages</h1>
-      <p class="subtitle">An IT 3203 class project about the basics, history, and importance of HTML.</p>
+      <h1>History of HTML</h1>
+      <p class="subtitle">How HTML evolved into the modern web language we use today.</p>
 
       <nav>
         <ul class="nav-menu">
@@ -26,89 +27,96 @@
     </div>
   </header>
 
-  <main class="container">
-    <section class="hero">
-      <h2>Welcome</h2>
+  <main class="container history-layout">
+
+    <!-- Sidebar -->
+    <aside class="history-sidebar">
+      <h2>Quick Facts</h2>
+      <ul>
+        <li>Created in early 1990s</li>
+        <li>Invented by Tim Berners-Lee</li>
+        <li>Used to structure webpages</li>
+        <li>HTML5 is current standard</li>
+      </ul>
+
+      <h2>Why It Matters</h2>
       <p>
-        HTML stands for <strong>HyperText Markup Language</strong>. It is the standard markup language
-        used to create the structure of webpages. HTML organizes headings, paragraphs, links, images,
-        lists, tables, and other page content.
+        HTML made it possible to connect documents across the world,
+        which led to the creation of the modern internet.
       </p>
-      <p>
-        This website introduces HTML, explains its development over time, describes common elements,
-        and highlights important concepts that every beginner should understand.
-      </p>
-    </section>
+    </aside>
 
-    <section class="grid-layout">
-      <article class="card">
-        <h2>Key Terms</h2>
-        <ul>
-          <li>Element</li>
-          <li>Tag</li>
-          <li>Attribute</li>
-          <li>Semantic HTML</li>
-          <li>Hyperlink</li>
-          <li>Document Structure</li>
-        </ul>
-      </article>
+    <!-- Timeline Content -->
+    <section class="history-content">
 
-      <article class="card">
-        <h2>Table of Contents</h2>
-        <ol>
-          <li><a href="history.html">History of HTML</a></li>
-          <li><a href="elements.html">Common HTML Elements</a></li>
-          <li><a href="concepts.html">Key HTML Concepts</a></li>
-          <li><a href="references.html">References and Learning Resources</a></li>
-          <li><a href="about.html">About Me and This Project</a></li>
-        </ol>
-      </article>
+      <h2>HTML Timeline</h2>
 
-      <article class="card">
-        <h2>Why HTML Matters</h2>
-        <p>
-          HTML is the foundation of web development. Even when a website uses CSS for design and
-          JavaScript for interactivity, HTML provides the structure that makes the page possible.
-        </p>
-      </article>
+      <div class="timeline">
 
-      <article class="card">
-        <h2>HTML in Web Development</h2>
-        <p>
-          HTML works together with CSS and JavaScript. HTML creates the structure, CSS styles the
-          content, and JavaScript adds behavior and interaction.
-        </p>
-      </article>
-    </section>
+        <div class="timeline-item">
+          <h3>Early 1990s</h3>
+          <p>
+            HTML was created by Tim Berners-Lee to help scientists share documents.
+            The first version was very simple and focused on text and links.
+          </p>
+        </div>
 
-    <section class="card">
-      <h2>Simple Comparison Table</h2>
+        <div class="timeline-item">
+          <h3>1995 – HTML 2.0</h3>
+          <p>
+            HTML became standardized. This helped ensure that webpages could be
+            displayed consistently across different browsers.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>1999 – HTML 4.01</h3>
+          <p>
+            More structure and formatting options were introduced, including
+            better support for layout and styling.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>2014 – HTML5</h3>
+          <p>
+            HTML5 introduced semantic tags, audio/video support, and modern features
+            used in today's websites and applications.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Table still included for requirement -->
+      <h2>Version Summary</h2>
       <table>
-        <thead>
-          <tr>
-            <th>Technology</th>
-            <th>Main Purpose</th>
-            <th>Example Use</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>Structure</td>
-            <td>Headings, paragraphs, links</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Style</td>
-            <td>Colors, spacing, layout</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>Interactivity</td>
-            <td>Buttons, form events, quizzes</td>
-          </tr>
-        </tbody>
+        <tr>
+          <th>Version</th>
+          <th>Year</th>
+          <th>Main Feature</th>
+        </tr>
+        <tr>
+          <td>HTML 1.0</td>
+          <td>1990s</td>
+          <td>Basic text and links</td>
+        </tr>
+        <tr>
+          <td>HTML 2.0</td>
+          <td>1995</td>
+          <td>Standardization</td>
+        </tr>
+        <tr>
+          <td>HTML 4.01</td>
+          <td>1999</td>
+          <td>Improved structure</td>
+        </tr>
+        <tr>
+          <td>HTML5</td>
+          <td>2014</td>
+          <td>Modern features</td>
+        </tr>
       </table>
+
     </section>
   </main>
 
@@ -120,5 +128,6 @@
       </p>
     </div>
   </footer>
+
 </body>
 </html>
