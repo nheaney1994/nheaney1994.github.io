@@ -143,3 +143,49 @@ a:hover {
     margin: 8px 0;
   }
 }
+/* =========================
+   HISTORY PAGE STYLING
+   ========================= */
+
+/* New layout for history page */
+.history-layout {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+}
+
+/* Sidebar */
+.history-sidebar {
+  background-color: #eef3f9;
+  padding: 20px;
+  border: 1px solid #c3d3e6;
+  border-radius: 8px;
+}
+
+.history-sidebar h2 {
+  margin-top: 0;
+}
+
+/* Timeline */
+.timeline {
+  border-left: 3px solid #1f4e79;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 4px solid #5a8ccf;
+}
+
+.timeline-item h3 {
+  margin-bottom: 5px;
+  color: #1f4e79;
+}
+
+/* Make responsive */
+@media (max-width: 768px) {
+  .history-layout {
+    grid-template-columns: 1fr;
+  }
+}
