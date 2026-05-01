@@ -293,3 +293,7 @@ a:hover {
   border-bottom: 3px solid #ff9800;
 }
 
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.2s ease;
+}
