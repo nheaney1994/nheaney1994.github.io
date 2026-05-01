@@ -292,3 +292,12 @@ a:hover {
   font-weight: bold;
   border-bottom: 3px solid #ff9800;
 }
+
+.banner {
+  background-image: url('images/html-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
