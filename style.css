@@ -284,3 +284,11 @@ a:hover {
   color: red;
   font-size: 1.3rem;
 }
+
+/* Active navigation link (current page) */
+.nav-menu a.active {
+  background-color: white;
+  color: #1f4e79;
+  font-weight: bold;
+  border-bottom: 3px solid #ff9800;
+}
