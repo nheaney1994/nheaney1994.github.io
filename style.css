@@ -385,3 +385,10 @@ a:hover {
     margin: 10px 0;
   }
 }
+
+.nav-menu a.active {
+  background-color: white;
+  color: #1f4e79;
+  font-weight: bold;
+  border-bottom: 3px solid #ff9800;
+}
