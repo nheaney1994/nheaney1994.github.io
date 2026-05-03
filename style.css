@@ -392,3 +392,20 @@ a:hover {
   font-weight: bold;
   border-bottom: 3px solid #ff9800;
 }
+
+/* Element selector */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Class selector */
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* ID selector */
+#results {
+  margin-top: 20px;
+}
