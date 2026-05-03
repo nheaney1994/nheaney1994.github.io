@@ -297,3 +297,91 @@ a:hover {
   transform: translateY(-5px);
   transition: 0.2s ease;
 }
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+/* Tablets and smaller laptops */
+@media (max-width: 900px) {
+  .container {
+    width: 94%;
+  }
+
+  .grid-layout,
+  .history-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  table {
+    font-size: 0.95rem;
+  }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  header {
+    padding: 16px 0;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .nav-menu li {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .nav-menu a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  main {
+    padding: 15px 0;
+  }
+
+  .grid-layout,
+  .history-layout {
+    display: block;
+  }
+
+  .card,
+  .history-sidebar,
+  .question-block {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .page-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .question-block input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+}
